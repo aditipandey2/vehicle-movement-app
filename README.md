@@ -8,7 +8,6 @@ This project is a web application that displays a vehicle moving along a predefi
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Customization](#customization)
 
 ## Features
@@ -52,34 +51,6 @@ To get a local copy of this project up and running, follow these steps:
 ## Usage
 
 Once the server is running, open your browser and navigate to `http://localhost:3000`. The map should load, displaying the vehicle's route. Use the control buttons to start, stop, and restart the vehicle's movement.
-
-## Project Structure
-vehicle-movement-app/
-│
-├── public/
-│ ├── index.html
-│ └── ...
-│
-├── src/
-│ ├── components/
-│ │ ├── MapComponent.js
-│ │ └── VehicleMarker.js
-│ │
-│ ├── hooks/
-│ │ └── useVehicleMovement.js
-│ │
-│ ├── utils/
-│ │ └── polylineUtil.js
-│ │
-│ ├── styles/
-│ │ └── App.css
-│ │
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-│
-└── package.json
-
 
 ## Customization
 
